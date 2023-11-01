@@ -1,0 +1,272 @@
+/*font family y padding*/
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* G R I L L A*/
+
+#grilla{
+    display: grid;
+    grid-template-columns: 1fr 500px auto 300px;
+    grid-template-rows: 200px 500px 500px auto;
+    grid-template-areas: 
+    "header header    header   header"
+    "aside  servicios servicios servicios"
+    "aside  servicios servicios servicios"
+    "footer footer    footer    footer"
+
+}
+
+.encabezado{
+    grid-area: header;
+}
+
+.espacio{
+    grid-area: aside;
+}
+
+
+#servicios{
+    grid-area: servicios;
+
+    padding-top: 20px; 
+    padding-left: 100px; 
+}
+.pie{
+    grid-area: footer;
+}
+
+
+/*H E A D E R*/
+
+
+
+.txt-logo{
+    color:#0080af;
+    font-size: 2rem;
+    display: flex;
+}
+.nav-superior{
+    display: flex;
+    align-content: center;
+
+}
+
+/*logo*/
+.logo{
+    width: 140px;
+    border-radius: 100%;
+    display: flex;
+}
+
+
+li{
+    list-style-type: none;
+    
+} 
+
+
+.titulo-color{
+    color: white;
+    font-size: 2rem;
+}
+
+/*  M A I N */
+
+#servicios{
+    display: flex;
+    padding-right: 160px;
+}
+
+.articulo{
+    display: flex;
+    flex-direction: column;
+}
+.titulo_servicios{
+    display: flex;
+    padding-left: 300px;
+
+
+}
+
+.titulo_seccion{
+    display: flex;
+}
+.presentacion{
+    font-size: 3em;
+    font-weight: 700;
+    color: black;
+    
+}
+
+.titulo-servi{
+    position: absolute;
+    top: 140px;
+    left: 510px;
+
+
+
+}
+
+.size-txt{
+    font-size: 2rem;
+    font-weight: 600;
+    height: 150px;
+    margin-top: 70px;
+}
+.servicios2{
+    padding-top: 124px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.articulo{
+    display: flex;
+    flex-direction: column;
+}
+/*color fondo*/
+body{
+    background-color: whitesmoke;
+}
+
+.encabezado{
+    background-image: url(../assets/imgheader.jpg);
+    height: 89px;
+    background-size: cover;
+    background-position: left;
+    position: sticky;
+    top: 0;
+}
+
+
+
+/*color secciones*/    
+.nav-link{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.enlace{
+    text-decoration: none;
+    font-weight: 600;
+    color: #cdf570;
+}
+
+.muestra{
+    width: 500px;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.card{
+    position: unset;
+    margin: 1px;
+    justify-content: center;
+    height: 600px;
+    margin-top: 100px;
+
+}
+
+
+
+/* A S I D E*/
+
+/*color y estilo titulos*/
+.parrafo-uno{
+    color:#0080af(0, 0%, 100%, 0.925);
+    font-size: 2rem;
+    top: 75px;
+    padding-left: 5px;
+    
+}
+
+.titulo-servi{
+    color:#0080af(0, 0%, 100%, 0.925);
+    font-size: 2rem;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    text-align: center;
+    direction: var();
+
+}
+/*tamaño de imagenes*/ 
+.muestra-img{
+    display: flex;
+    padding-top: 20px;
+}
+
+footer{ 
+    background-image: url(../assets/imgheader.jpg);
+    background-size: cover;
+    height: 330px;
+    background-position: left;
+    font-weight: bolder;
+    color: #0080af;
+    display: flex;
+}
+
+.nav_pie{
+    margin:0 0 0 10px;
+}
+
+
+.link_redes{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+}
+
+.redes{
+    padding-left: 1050px;
+    text-align: right; 
+
+}
+.navegacion-inicio{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #dbad6a;
+}
+
+.navegacion-inicio:hover{
+    color: blueviolet;
+    text-decoration: underline;
+
+}
+
+.navegacion-footer{
+    text-decoration: none;
+}
+/*color txt*/
+.color-txt{
+    color: white;
+    padding: 0;
+}
+
+/*color de redes*/
+
+
+.enlace-pie{
+    color: #dbad6a;
+    text-decoration: none;
+}
+
+/* M O B I L E*/
+@media only screen and (max-width:500px){
+
+}
+
+/* T A B L E T*/
+@media only screen and (min-width: 501px) and (max-width: 960px){
+
+} 
