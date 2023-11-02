@@ -108,6 +108,7 @@ li{
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+    flex-wrap: wrap;
 
 }
 
@@ -254,7 +255,7 @@ footer{
 
 /* M O B I L E*/
 @media only screen and (max-width:500px){
-    .servicios{
+    .tarjetas{
         flex-direction: column;
     }
 
@@ -262,9 +263,9 @@ footer{
 
 /* T A B L E T*/
 @media only screen and (min-width: 501px) and (max-width: 960px){
-    .servicios{
+    .tarjetas{
         flex-direction: column;
-        flex-wrap: wrap;
+
     }
 
 } 
