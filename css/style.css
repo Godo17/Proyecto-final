@@ -41,9 +41,18 @@
 
 /*H E A D E R*/
 
+.bg-mi-burguer{
+    background-color: gray;
+}
+
+
 /* color boton*/
 .bg-mi-color{
    background-color: #8df547;
+}
+
+.navbar-nav{
+    align-items: flex-end;
 }
 
 .txt-logo{
