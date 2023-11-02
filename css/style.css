@@ -11,13 +11,13 @@
 
 #grilla{
     display: grid;
-    grid-template-columns: 1fr 500px auto 300px;
-    grid-template-rows: 200px 500px 500px auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     grid-template-areas: 
-    "header header    header   header"
-    "aside  servicios servicios servicios"
-    "aside  servicios servicios servicios"
-    "footer footer    footer    footer"
+    " header"
+    " servicios"
+    " servicios"
+    " footer"
 
 }
 
@@ -25,17 +25,15 @@
     grid-area: header;
 }
 
-.espacio{
-    grid-area: aside;
-}
-
 
 #servicios{
     grid-area: servicios;
-
-    padding-top: 20px; 
-    padding-left: 100px; 
+    display: flex;
+    padding-top: 20px;  
+    justify-content: center;
+    flex-direction: column;
 }
+
 .pie{
     grid-area: footer;
 }
@@ -79,10 +77,7 @@ li{
 
 /*  M A I N */
 
-#servicios{
-    display: flex;
-    padding-right: 160px;
-}
+
 
 .articulo{
     display: flex;
@@ -90,8 +85,6 @@ li{
 }
 .titulo_servicios{
     display: flex;
-    padding-left: 300px;
-
 
 }
 
@@ -106,20 +99,23 @@ li{
 }
 
 .titulo-servi{
-    position: absolute;
-    top: 140px;
-    left: 510px;
+    display: flex;
+    justify-content: center;
 
+}
 
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
 
 }
 
 .size-txt{
     font-size: 2rem;
     font-weight: 600;
-    height: 150px;
-    margin-top: 70px;
 }
+
 .servicios2{
     padding-top: 124px;
     display: flex;
@@ -134,6 +130,7 @@ li{
 /*color fondo*/
 body{
     background-color: whitesmoke;
+    flex-wrap: wrap;
 }
 
 .encabezado{
@@ -149,7 +146,7 @@ body{
 
 /*color secciones*/    
 .nav-link{
-    color: white;
+    color: #a4ff67;
 }
 
 ul{
@@ -188,18 +185,12 @@ ul{
     color:#0080af(0, 0%, 100%, 0.925);
     font-size: 2rem;
     top: 75px;
-    padding-left: 5px;
     
 }
 
 .titulo-servi{
     color:#0080af(0, 0%, 100%, 0.925);
     font-size: 2rem;
-    outline: 0;
-    padding: 0;
-    vertical-align: baseline;
-    text-align: center;
-    direction: var();
 
 }
 /*tamaño de imagenes*/ 
@@ -225,15 +216,13 @@ footer{
 
 .link_redes{
     display: flex;
-    width: auto;
-    flex-direction: column;
 }
 
 .redes{
-    padding-left: 1050px;
-    text-align: right; 
-
+    width: 810px;
+    text-align: right;
 }
+
 .navegacion-inicio{
     font-size: 2rem;
     text-decoration: none;
@@ -265,10 +254,17 @@ footer{
 
 /* M O B I L E*/
 @media only screen and (max-width:500px){
+    .servicios{
+        flex-direction: column;
+    }
 
 }
 
 /* T A B L E T*/
 @media only screen and (min-width: 501px) and (max-width: 960px){
+    .servicios{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 
 } 
