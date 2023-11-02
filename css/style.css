@@ -41,8 +41,9 @@
 
 /*H E A D E R*/
 
-.btn-mi-color{
-   color:  #0080af;
+/* color boton*/
+.bg-mi-color{
+   background-color: #8df547;
 }
 
 .txt-logo{
@@ -215,19 +216,32 @@ footer{
 }
 
 
-.link_redes{
+.link-redes{
     display: flex;
+    width: 100%;
+    justify-content: right;
+    margin-top: 10px;
+
+
 }
 
-.redes{
-    width: 810px;
-    text-align: right;
+.link-redes a{
+    color:#a4ff67;
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    transition: all .4s ease-in-out;
+
 }
 
+.link-redes a:hover{
+    transform: scale(1.2);
+}
 .navegacion-inicio{
     font-size: 2rem;
     text-decoration: none;
-    color: #dbad6a;
+    color: #a4ff67;
 }
 
 .navegacion-inicio:hover{
@@ -249,7 +263,7 @@ footer{
 
 
 .enlace-pie{
-    color: #dbad6a;
+    color: #a4ff67;
     text-decoration: none;
 }
 
