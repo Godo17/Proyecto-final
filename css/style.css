@@ -21,6 +21,64 @@
 
 }
 
+/** G R I L L A  S E R V I C I O S**/
+
+#grilla-servicios{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto;
+grid-template-areas: 
+"header header"
+"seccion seccion1"
+"seccion2 seccion3"
+"seccion4 seccion5"
+"seccion6 seccion7"
+"footer footer";
+}
+
+/** areas de grilla-servicios**/
+
+.encabezado{
+    grid-area: header;
+}
+
+.soluciones-seg{
+    grid-area: seccion;
+}
+
+.seccion-seg{
+    grid-area: seccion1;
+}
+
+.servicio-tecnico{
+    grid-area: seccion2;
+}
+
+.seccion-st{
+    grid-area: seccion3;
+}
+
+
+.gamer{
+    grid-area: seccion4;
+}
+
+.seccion-gamer{
+    grid-area: seccion5;
+}
+
+.diseno-web{
+    grid-area: seccion6;
+}
+
+.seccion-diseno{
+    grid-area: seccion7;
+}
+
+.pie{
+    grid-area: footer;
+}
+/** areas de grilla index**/
 .encabezado{
     grid-area: header;
 }
@@ -38,6 +96,7 @@
     grid-area: footer;
 }
 
+/** areas de grilla-servicios**/
 
 /*H E A D E R*/
 
@@ -292,3 +351,28 @@ footer{
     }
 
 } 
+
+/** ------------- SERVICIOS ------------**/
+
+/** MAIN **/
+
+
+.soluciones-seg{
+    display: flex;
+}
+
+.muestra{
+    display: flex;
+}
+.seccion-seg{
+    display: flex;
+
+}
+.descripcion{
+    width: 100%;
+    margin: 1px;
+}
+
+.seccion-img{
+
+}

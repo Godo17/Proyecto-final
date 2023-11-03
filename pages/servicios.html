@@ -8,80 +8,125 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet" href="../css/style.css">  
-    <link rel="stylesheet" href="../css/style.css"> 
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <!-- bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Kit iconos-->
+    <script src="https://kit.fontawesome.com/e4a124d972.js" crossorigin="anonymous"></script>   
 </head>
 
 <body>
-    <header class="encabezado">
-        <img class="logo" src="../assets/logogertech.jpg" alt="logo gertech">
-        <h1 class="parrafo-uno">GerTech</h1>
-        <nav> 
-            <ul class=" navegacion">
-                <li> <a class="enlace" href="../index.html"> Inicio</a></li>
-                <li> <a class="enlace" href="./alianzas.html"> Alianzas </a></li>
-                <li> <a class="enlace" href="./nosotros.html"> Nosotros </a></li>
-                <li> <a class="enlace" href="./contacto.html"> Contacto </a></li>        
-            </ul>
-        </nav>
-    </header>
+    <div id="grilla-servicios">
+        <header class="encabezado">
+
+            <!-- NAV BOOTSTRAP PRUEBA-->
+                
+            <nav class="navbar navbar-expand-lg bg-encabezado">
+            <div class="container-fluid"> 
+                <img class="logo" src="../assets/logogertech.jpg"alt="logo gertech" width="100px">
+                <h1 class="txt-logo">GerTech</h1>
+    
+                <button class="navbar-toggler bg-mi-burguer" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./alianzas.html">Alianzas</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </nav>
+    
+    
+                
+        </header>
 
 
-    <main>
-        <section>
-            <article class="muestra">
-                <h2>Soluciones en seguridad.</h2>
-                <p>Trabajamos toda la línea de cámaras Dahua HD Full color y Hikvision. Colocación de alarmas y sensores.</p>
-                <img src="../assets/domo.jpg" alt="camara domo" width="100%">
-                <img src="../assets/camfabrica.jpg" alt="camara fabrica" width="100%">
-                <img src="../assets/kitalarmas.jpg" alt="kit alarmas" width="100%">
-            </article>
-        </section>
+        <main class="cuerpo">
+            <section class=" soluciones-seg">
+                <div class="titulo-seccion">
+                    <h2>Soluciones en seguridad.</h2>
+                    <p>Trabajamos toda la línea de cámaras Dahua HD Full color y Hikvision. Colocación de alarmas y sensores.</p>
+                </div>
+            </section>
+            <section class="seccion-seg">
+                <div class="descripcion">
+                    <img src="../assets/domo.jpg" alt="camara domo" >
+                    <img class="descripcion" src="../assets/camfabrica.jpg" alt="camara fabrica" >
+                    <img class="descripcion" src="../assets/kitalarmas.jpg" alt="kit alarmas" >
+                </div>
+            </section>
 
-        <section>
-            <article class="muestra">
+            <section class="servicio-tecnico">
                 <h2>Servicio técnico y soporte.</h2>
                 <p>Instalacion  de racks, armado de servidores, planos técnicos. MAntenimiento y reparación de equipos</p>
-                <img src="../assets/rack.jpg" alt="rack dvr" width="100%">
-                <img src="../assets/rack2.jpg" alt="rack empresa" width="100%">
-            </article>
-        </section>
+            </section>
+            <section class="seccion-st">
+                <div>
+                    <img class="descripcion" src="../assets/rack.jpg" alt="rack dvr" >
+                    <img class="descripcion" src="../assets/rack2.jpg" alt="rack empresa" >
+                </div>
+            </section>
 
-        <section>
-            <article class="muestra">
+            <section class="gamer">
                 <h2>Pc Gamer</h2>
                 <p>Armamos tu pc gamer para que disfrutes al máximo tus juegos favoritos. Venta de gabinetes y oomponentes de altas prestaciones.</p>
-                <img src="../assets/gamer.jpg" alt="pc gamer" width="100%">
-                <img src="../assets/pcgamer.jpg" alt="gabinete gamer" width="100%">
-            </article>
-        </section>
+            </section>
+            <section class="seccion-gamer">
+                <div>
+                    <img class="descripcion" src="../assets/gamer.jpg" alt="pc gamer">
+                    <img class="descripcion" src="../assets/pcgamer.jpg" alt="gabinete gamer" >
+                </div>
+            </section>
 
-        <section>
-            <article class="muestra">
+            <section class="diseno-web">
                 <h2>Diseños de págnias Web</h2>
                 <p>Diseñamos tu sitio web para potenciar y mostrar tu negocio/marca en el mercado.</p>
-                <img src="../assets/disenoweb.jpg" alt="diseño web" width="100%">
-            </article>
-        </section>
-    </main>
+            </section>
+            <section class="seccion-diseno">
+                <div> 
+                    <img class="descripcion" src="../assets/disenoweb.jpg" alt="diseño web" >
+                </div>
+            </section>
+        </main>
 
 
-    <footer>
-        <img class="logo" src="../assets/logogertech.jpg" alt="logo gertech">
-        <nav> 
-            <ul class=" navegacion-footer">
-                <li> <a class="navegacion-inicio" href="../index.html"> Inicio</a></li>
-                <li> <a class="enlace" href="./alianzas.html"> Alianzas </a></li>
-                <li> <a class="enlace" href="./nosotros.html"> Nosotros </a></li>
-                <li> <a class="enlace" href="./contacto.html"> Contacto </a></li>
-            
-            </ul>
-        </nav>
-        <h2 class="color-txt">Seguinos en Redes:</h2>
-        <ul> 
-            <li> <a class="enlace" href="https://www.instagram.com/gertech_servicio_tecnico/?hl=es"> Instagram </a></li> 
-            <li> <a class="enlace" href="https://www.facebook.com/GerTech/?locale=es_LA"> Facebook </a></li>
-        </ul>
-    </footer>
+        <footer class="pie">
+            <div class="nav_pie">
+            <nav> 
+                <ul class=" navegacion-footer">
+                <li> <a class="navegacion-inicio" href="../index.html"> Inicio </a></li>
+                <li> <a class="enlace-pie" href="./servicios.html"> Servicios </a></li>
+                <li> <a class="enlace-pie" href="./alianzas.html"> Alianzas </a></li>
+                <li> <a class="enlace-pie" href="./nosotros.html"> Nosotros </a></li>
+                <li> <a class="enlace-pie" href="./contacto.html"> Contacto </a></li>            
+                </ul>
+            </nav> 
+            </div>            
+
+
+            <section class="link-redes">
+            <a href="https://www.facebook.com/GerTech/?locale=es_LA" class="fa-brands fa-facebook"></a>
+            <a href="https://www.instagram.com/gertech_servicio_tecnico/?hl=es"class="fa-brands fa-square-instagram"></a>
+            </section>
+
     
+        </footer>
+    </div>    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
