@@ -441,3 +441,9 @@ footer{
     justify-content: right;
 }   
 
+/** M A I N  N O S O T R O S **/
+
+.seccion-nosotros{
+    text-align: center;
+    margin-top: 20px;
+}
