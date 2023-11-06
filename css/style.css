@@ -359,6 +359,10 @@ footer{
         justify-content: center;    
         flex-direction: column;
     }
+    .descripcion{
+        width: 100%;
+        height: 100%;
+    }
 }
 
 /* T A B L E T*/
@@ -382,7 +386,10 @@ footer{
         justify-content: center;    
         flex-direction: column;
     }
-
+    .descripcion{
+        width: 100%;
+        height: 100%;
+    }
 } 
 
 /** ------------- SERVICIOS ------------**/
@@ -419,8 +426,8 @@ footer{
 }
 
 .descripcion{
-    width: 500px;
-    height: 235px;
+    max-width: 500px;
+    height: auto;
     margin: 1px;
    
 }
