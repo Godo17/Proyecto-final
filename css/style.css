@@ -447,3 +447,33 @@ footer{
     text-align: center;
     margin-top: 20px;
 }
+
+/** M A I N  C O N T A C T O **/
+
+.seccion-contacto{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.form-email{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-textarea{
+    text-align: left;
+}
+
+.form-area{
+    display: flex;
+    justify-content: right;
+}
+
+.submit{
+    text-align: right;
+}
