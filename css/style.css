@@ -454,6 +454,16 @@ footer{
     text-align: center;
     margin-top: 20px;
 }
+.redes-contacto{
+    color: #a4ff67;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.redes-contacto:hover{
+    color: blueviolet;
+    text-shadow: black;
+}
 
 .form{
     display: flex;
