@@ -343,10 +343,22 @@ footer{
     .tarjetas{
         flex-direction: column;
     }
-    .cuerpo{
+    .contenedor-soluciones{
+        justify-content: center;    
         flex-direction: column;
     }
-
+    .contenedor-st{
+        justify-content: center;    
+        flex-direction: column;
+    }
+    .contenedor-gamer{
+        justify-content: center;    
+        flex-direction: column;
+    }
+    .contenedor-diseno{
+        justify-content: center;    
+        flex-direction: column;
+    }
 }
 
 /* T A B L E T*/
@@ -354,7 +366,20 @@ footer{
     .tarjetas{
         flex-direction: column;
     }
-    .cuerpo{
+    .contenedor-soluciones{
+        justify-content: center;    
+        flex-direction: column;
+    }
+    .contenedor-st{
+        justify-content: center;    
+        flex-direction: column;
+    }
+    .contenedor-gamer{
+        justify-content: center;    
+        flex-direction: column;
+    }
+    .contenedor-diseno{
+        justify-content: center;    
         flex-direction: column;
     }
 
@@ -414,24 +439,5 @@ footer{
 
 .seccion-diseno{
     justify-content: right;
-}
+}   
 
-.soluciones-seg{
-    height: 86px;
-    width: 820;
-}
-
-.servicio-tecnico{
-    height: 86px;
-    width: 820;
-}
-
-.gamer{
-    height: 86px;
-    width: 820;
-}
-
-.diseno-web{
-    height: 86px;
-    width: 820;
-}
