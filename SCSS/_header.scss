@@ -1,0 +1,45 @@
+/*H E A D E R*/
+
+.bg-mi-burguer{
+    background-color: gray;
+}
+
+
+/* color boton*/
+.bg-mi-color{
+   background-color: #8df547;
+}
+
+.navbar-nav{
+    align-items: flex-end;
+}
+
+.txt-logo{
+    color:#0080af;
+    font-size: 2rem;
+    display: flex;
+}
+.nav-superior{
+    display: flex;
+    align-content: center;
+
+}
+
+/*logo*/
+.logo{
+    width: 140px;
+    border-radius: 100%;
+    display: flex;
+}
+
+
+li{
+    list-style-type: none;
+    
+} 
+
+
+.titulo-color{
+    color: white;
+    font-size: 2rem;
+}

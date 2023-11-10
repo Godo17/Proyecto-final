@@ -1,0 +1,522 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* G R I L L A*/
+
+#grilla{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    " header"
+    " servicios"
+    " servicios"
+    " footer"
+
+}
+
+/** G R I L L A  S E R V I C I O S**/
+
+#grilla-servicios{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto;
+grid-template-areas: 
+"header header"
+"seccion seccion"
+"footer footer";
+}
+
+/** areas de grilla-servicios**/
+
+.encabezado{
+    grid-area: header;
+}
+
+.cuerpo{
+    grid-area: seccion;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+/**
+.soluciones-seg{
+    grid-area: seccion;
+}
+
+.seccion-seg{
+    grid-area: seccion1;
+}
+
+.servicio-tecnico{
+    grid-area: seccion2;
+}
+
+.seccion-st{
+    grid-area: seccion3;
+}
+
+
+.gamer{
+    grid-area: seccion4;
+}
+
+.seccion-gamer{
+    grid-area: seccion5;
+}
+
+.diseno-web{
+    grid-area: seccion6;
+}
+
+.seccion-diseno{
+    grid-area: seccion7;
+}
+**/
+.pie{
+    grid-area: footer;
+}
+/** areas de grilla index**/
+.encabezado{
+    grid-area: header;
+}
+
+
+#servicios{
+    grid-area: servicios;
+    display: flex;
+    padding-top: 20px;  
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pie{
+    grid-area: footer;
+}
+
+/** areas de grilla-servicios**/
+
+/*H E A D E R*/
+
+.bg-mi-burguer{
+    background-color: gray;
+}
+
+
+/* color boton*/
+.bg-mi-color{
+   background-color: #8df547;
+}
+
+.navbar-nav{
+    align-items: flex-end;
+}
+
+.txt-logo{
+    color:#0080af;
+    font-size: 2rem;
+    display: flex;
+}
+.nav-superior{
+    display: flex;
+    align-content: center;
+
+}
+
+/*logo*/
+.logo{
+    width: 140px;
+    border-radius: 100%;
+    display: flex;
+}
+
+
+li{
+    list-style-type: none;
+    
+} 
+
+
+.titulo-color{
+    color: white;
+    font-size: 2rem;
+}
+
+/*  M A I N */
+
+
+
+.articulo{
+    display: flex;
+    flex-direction: column;
+}
+.titulo_servicios{
+    display: flex;
+
+}
+
+.titulo_seccion{
+    display: flex;
+}
+.presentacion{
+    font-size: 3em;
+    font-weight: 700;
+    color: black;
+    
+}
+
+.titulo-servi{
+    display: flex;
+    justify-content: center;
+
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+
+}
+
+.size-txt{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.servicios2{
+    padding-top: 124px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.articulo{
+    display: flex;
+    flex-direction: column;
+}
+/*color fondo*/
+body{
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+}
+
+.encabezado{
+    background-image: url(../assets/imgheader.jpg);
+    height: 89px;
+    background-size: cover;
+    background-position: left;
+    position: sticky;
+    top: 0;
+}
+
+
+
+/*color secciones*/    
+.nav-link{
+    color: #a4ff67;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.enlace{
+    text-decoration: none;
+    font-weight: 600;
+    color: #cdf570;
+}
+
+.muestra{
+    width: 500px;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.card{
+    position: unset;
+    margin: 1px;
+    justify-content: center;
+    height: 600px;
+    margin-top: 100px;
+
+}
+
+
+
+/* A S I D E*/
+
+/*color y estilo titulos*/
+.parrafo-uno{
+    color:#0080af(0, 0%, 100%, 0.925);
+    font-size: 2rem;
+    top: 75px;
+    
+}
+
+.titulo-servi{
+    color:#0080af(0, 0%, 100%, 0.925);
+    font-size: 2rem;
+
+}
+/*tamaño de imagenes*/ 
+.muestra-img{
+    display: flex;
+    padding-top: 20px;
+}
+
+footer{ 
+    background-image: url(../assets/imgheader.jpg);
+    background-size: cover;
+    height: 330px;
+    background-position: left;
+    font-weight: bolder;
+    color: #0080af;
+    display: flex;
+}
+
+.nav_pie{
+    margin:0 0 0 10px;
+}
+
+
+.link-redes{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    margin-top: 10px;
+
+
+}
+
+.link-redes a{
+    color:#a4ff67;
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    transition: all .4s ease-in-out;
+
+}
+
+.link-redes a:hover{
+    transform: scale(1.2);
+}
+.navegacion-inicio{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #a4ff67;
+}
+
+.navegacion-inicio:hover{
+    color: blueviolet;
+    text-decoration: underline;
+
+}
+
+.navegacion-footer{
+    text-decoration: none;
+}
+/*color txt*/
+.color-txt{
+    color: white;
+    padding: 0;
+}
+
+/*color de redes*/
+
+
+.enlace-pie{
+    color: #a4ff67;
+    text-decoration: none;
+}
+
+/* M O B I L E*/
+@media only screen and (max-width:500px){
+    .tarjetas{
+        flex-direction: column;
+    }
+    .contenedor-soluciones{
+        justify-content: center;    
+        flex-direction: column;
+    }
+    .contenedor-st{
+        justify-content: center;    
+        flex-direction: column;
+    }
+    .contenedor-gamer{
+        justify-content: center;    
+        flex-direction: column;
+    }
+    .contenedor-diseno{
+        justify-content: center;    
+        flex-direction: column;
+    }
+    .descripcion{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* T A B L E T*/
+@media only screen and (min-width: 501px) and (max-width: 960px){
+    .tarjetas{
+        flex-direction: column;
+    }
+    .contenedor-soluciones{
+        justify-content: center;    
+        flex-direction: column;
+    }
+    .contenedor-st{
+        justify-content: center;    
+        flex-direction: column;
+    }
+    .contenedor-gamer{
+        justify-content: center;    
+        flex-direction: column;
+    }
+    .contenedor-diseno{
+        justify-content: center;    
+        flex-direction: column;
+    }
+    .descripcion{
+        width: 100%;
+        height: 100%;
+    }
+} 
+
+/** ------------- SERVICIOS ------------**/
+
+/** MAIN **/
+
+
+.contenedor-soluciones{
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+
+.contenedor-st{
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+
+.contenedor-gamer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+
+.contenedor-diseno{
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+
+.descripcion{
+    max-width: 500px;
+    height: auto;
+    margin: 1px;
+   
+}
+
+.seccion-seg{
+    justify-content: right;
+}
+
+.seccion-st{
+    justify-content: right;
+}
+
+.seccion-gamer{
+    justify-content: right;
+}
+
+.seccion-diseno{
+    justify-content: right;
+}   
+
+/** M A I N  N O S O T R O S **/
+
+.seccion-nosotros{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/** M A I N  C O N T A C T O **/
+
+.seccion-contacto{
+    text-align: center;
+    margin-top: 20px;
+}
+.redes-contacto{
+    color: #a4ff67;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.redes-contacto:hover{
+    color: blueviolet;
+    text-shadow: black;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.form-email{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-textarea{
+    text-align: left;
+}
+
+.form-area{
+    display: flex;
+    justify-content: right;
+}
+
+.submit{
+    text-align: right;
+}
+
+/** M A I N  A L I A N Z A **/
+
+.main-alianzas{
+    display: flex;
+    justify-content: center;
+}
+
+.alianzas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.marcas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.marcas img{
+    width: 500px;
+    margin: 5px;
+}
