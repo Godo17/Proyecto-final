@@ -4,6 +4,9 @@
     background-color: gray;
 }
 
+.encabezado{
+    @include fondo-header;
+}
 
 /* color boton*/
 .bg-mi-color{
@@ -14,10 +17,16 @@
     align-items: flex-end;
 }
 
+.nav-link{
+    color: $color-link;
+}
+
+ul{
+    list-style-type: none;
+}
+
 .txt-logo{
-    color:#0080af;
-    font-size: 2rem;
-    display: flex;
+    @include texto-logo;
 }
 .nav-superior{
     display: flex;
@@ -27,9 +36,7 @@
 
 /*logo*/
 .logo{
-    width: 140px;
-    border-radius: 100%;
-    display: flex;
+    @include border-logo;
 }
 
 
@@ -43,3 +50,4 @@ li{
     color: white;
     font-size: 2rem;
 }
+

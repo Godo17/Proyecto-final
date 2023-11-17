@@ -43,40 +43,7 @@ grid-template-areas:
     margin-top: 70px;
     margin-left: 10px;
 }
-/**
-.soluciones-seg{
-    grid-area: seccion;
-}
 
-.seccion-seg{
-    grid-area: seccion1;
-}
-
-.servicio-tecnico{
-    grid-area: seccion2;
-}
-
-.seccion-st{
-    grid-area: seccion3;
-}
-
-
-.gamer{
-    grid-area: seccion4;
-}
-
-.seccion-gamer{
-    grid-area: seccion5;
-}
-
-.diseno-web{
-    grid-area: seccion6;
-}
-
-.seccion-diseno{
-    grid-area: seccion7;
-}
-**/
 .pie{
     grid-area: footer;
 }

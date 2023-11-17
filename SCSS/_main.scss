@@ -1,0 +1,87 @@
+.articulo{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    &_servicios{
+        display: flex;
+    }
+    &_seccion{
+        display: flex;
+    }
+    &-servi{
+        @include flex-just;
+    }
+}
+
+.presentacion{
+    font-size: 3em;
+    font-weight: 700;
+    color: black;
+    
+}
+
+.tarjetas{
+    @include flex-just;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+
+}
+
+.size-txt{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.servicios2{
+    padding-top: 124px;
+    @include flex-just;
+
+}
+
+.articulo{
+    display: flex;
+    flex-direction: column;
+}
+/*color fondo*/
+body{
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+}
+.enlace{
+    text-decoration: none;
+    font-weight: 600;
+    color: #cdf570;
+}
+
+.muestra{
+    width: 500px;
+}
+
+
+.card{
+    position: unset;
+    margin: 1px;
+    justify-content: center;
+    height: 600px;
+    margin-top: 100px;
+
+    &-text{
+        text-align: justify;
+    }
+
+}
+
+/*color y estilo titulos*/
+.parrafo-uno{
+    @include color-size;
+    top: 75px;
+    
+}
+
+.titulo-servi{
+    @include color-size;
+
+}
+

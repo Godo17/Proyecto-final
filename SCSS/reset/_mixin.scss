@@ -1,0 +1,31 @@
+@mixin texto-logo {
+    color: #0080af;
+    font-size: 2rem;
+    display: flex;
+
+}
+
+@mixin border-logo {
+    width: 140px;
+    border-radius: 100%;
+    display: flex;
+}
+
+@mixin fondo-header {
+    background-image: url(../assets/imgheader.jpg);
+    height: 89px;
+    background-size: cover;
+    background-position: left;
+    position: sticky;
+    top: 0;
+}
+
+@mixin flex-just {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin color-size {
+    color: #0080af;
+    font-size: 2rem;
+}

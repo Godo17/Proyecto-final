@@ -1,3 +1,4 @@
+/* RESET */
 * {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -5,9 +6,19 @@
   padding: 0;
 }
 
+/* HEADER */
 /*H E A D E R*/
 .bg-mi-burguer {
   background-color: gray;
+}
+
+.encabezado {
+  background-image: url(../assets/imgheader.jpg);
+  height: 89px;
+  background-size: cover;
+  background-position: left;
+  position: sticky;
+  top: 0;
 }
 
 /* color boton*/
@@ -17,6 +28,14 @@
 
 .navbar-nav {
   align-items: flex-end;
+}
+
+.nav-link {
+  color: #a4ff67;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .txt-logo {
@@ -43,6 +62,91 @@ li {
 
 .titulo-color {
   color: white;
+  font-size: 2rem;
+}
+
+/* MAIN */
+.articulo {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo_servicios {
+  display: flex;
+}
+.titulo_seccion {
+  display: flex;
+}
+.titulo-servi {
+  display: flex;
+  justify-content: center;
+}
+
+.presentacion {
+  font-size: 3em;
+  font-weight: 700;
+  color: black;
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.size-txt {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.servicios2 {
+  padding-top: 124px;
+  display: flex;
+  justify-content: center;
+}
+
+.articulo {
+  display: flex;
+  flex-direction: column;
+}
+
+/*color fondo*/
+body {
+  background-color: whitesmoke;
+  flex-wrap: wrap;
+}
+
+.enlace {
+  text-decoration: none;
+  font-weight: 600;
+  color: #cdf570;
+}
+
+.muestra {
+  width: 500px;
+}
+
+.card {
+  position: unset;
+  margin: 1px;
+  justify-content: center;
+  height: 600px;
+  margin-top: 100px;
+}
+.card-text {
+  text-align: justify;
+}
+
+/*color y estilo titulos*/
+.parrafo-uno {
+  color: #0080af;
+  font-size: 2rem;
+  top: 75px;
+}
+
+.titulo-servi {
+  color: #0080af;
   font-size: 2rem;
 }
 
