@@ -1,0 +1,59 @@
+/* G R I L L A  index*/
+
+#grilla{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    " header"
+    " servicios"
+    " servicios"
+    " footer"
+
+}
+
+/** areas de grilla index**/
+.encabezado{
+    grid-area: header;
+}
+
+
+#servicios{
+    grid-area: servicios;
+    padding-top: 20px;  
+    @include flex-just;
+    flex-direction: column;
+}
+
+.pie{
+    grid-area: footer;
+}
+
+
+/** G R I L L A  S E R V I C I O S**/
+
+#grilla-servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header"
+    "seccion seccion"
+    "footer footer";
+}
+
+/** areas de grilla-servicios**/
+
+.encabezado{
+    grid-area: header;
+}
+
+.cuerpo{
+    grid-area: seccion;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.pie{
+    grid-area: footer;
+}

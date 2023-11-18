@@ -29,3 +29,13 @@
     color: #0080af;
     font-size: 2rem;
 }
+
+@mixin fondo-footer {
+    background-image: url(../assets/imgheader.jpg);
+    background-size: cover;
+    height: 330px;
+    background-position: left;
+    font-weight: bolder;
+    color: #0080af;
+    display: flex;
+}
