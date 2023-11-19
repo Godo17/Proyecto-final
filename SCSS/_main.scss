@@ -66,6 +66,7 @@ body{
     justify-content: center;
     height: 600px;
     margin-top: 100px;
+    max-width: 30rem;
 
     &-text{
         text-align: justify;
@@ -83,6 +84,152 @@ body{
 .titulo-servi{
     @include color-size;
 
+}
+/* MAIN SERVICIOS */
+
+.contenedor{
+    &-soluciones{
+        display: flex;
+        align-items: center;
+        width: $w-100;
+
+        & h2{
+            color: #0080af;
+        }
+    }
+    &-st{
+        display: flex;
+        align-items: center;
+        width: $w-100;
+       
+        & h2{
+            color: #0080af;
+        }    
+    }
+    &-gamer{
+        display: flex;
+        align-items: center;
+        width: $w-100;
+
+        & h2{
+            color: #0080af;
+        }
+    }
+    &-diseno{
+        display: flex;
+        align-items: center;
+        width: $w-100;
+
+        & h2{
+            color: #0080af;
+        }
+    }
+}
+
+
+.descripcion{
+    max-width: 500px;
+    height: auto;
+    margin: 1px;
+   
+}
+
+.seccion{
+    &-seg{
+        justify-content: right;
+    }
+    &-st{
+        justify-content: right;  
+    }
+    &-gamer{
+        justify-content: right;
+    }
+    &-diseno{
+        justify-content: right;
+    }
+}
+
+/** M A I N  N O S O T R O S **/
+
+.seccion-nosotros{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/** M A I N  C O N T A C T O **/
+
+.seccion-contacto{
+    text-align: center;
+    margin-top: 20px;
+}
+.redes{
+    &-contacto{
+        color: $color-link;
+        font-weight: 700;
+        text-decoration: none;
+        transition: all .4s ease-in-out;
+
+        &:hover{
+            transform: scale(1.5);
+            color: blueviolet;
+            text-shadow: black;
+
+        }
+    }
+}
+
+
+.form{
+    @include flex-just;
+
+    &-email{
+        display: flex;
+        justify-content: space-between;
+    }
+    &-textarea{
+        text-align: left;
+    }
+    &-area{
+        display: flex;
+        justify-content: right;
+    }
+}
+
+.submit{
+    text-align: right;
+
+    & input{
+    background-color: $color-link;
+
+        &:hover{
+            background-color: gray;
+        }
+    }
+}
+
+/** M A I N  A L I A N Z A **/
+
+.main-alianzas{
+    display: flex;
+    justify-content: center;
+}
+
+.alianzas{
+    @include flex-just;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.marcas{
+    width: $w-100;
+    @include flex-just;
+    flex-direction: column;
+
+    & img{
+        width: 500px;
+        margin: 5px;
+    }
 }
 
 

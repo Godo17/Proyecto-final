@@ -39,3 +39,8 @@
     color: #0080af;
     display: flex;
 }
+
+@mixin just-direct {
+    justify-content: center;    
+    flex-direction: column;
+}
