@@ -209,6 +209,10 @@ body {
 }
 
 /* MAIN SERVICIOS */
+.animaciones {
+  overflow: hidden;
+}
+
 .contenedor-soluciones {
   display: flex;
   align-items: center;
