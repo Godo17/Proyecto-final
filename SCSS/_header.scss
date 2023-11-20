@@ -5,6 +5,7 @@
 
 .encabezado{
     @include fondo-header;
+    z-index: 99;
 }
 
 /* color boton*/

@@ -1,5 +1,5 @@
-/* M O B I L E*/
-@media only screen and (max-width:500px){
+/* T A B L E T*/
+@media  (min-width: 481px) and (max-width: 768px){
     .tarjetas{
         flex-direction: column;
         justify-content: center;
@@ -19,35 +19,41 @@
             @include just-direct;
         }
     }
+    
+    .marcas{
+        @include just-direct;
+        width: $w-100;
+    }
 
-    .descripcion{
-        width: 100%;
-        height: 100%;
+
+}
+
+/* M O B I L E*/
+@media (min-width:320px) and (max-width:480px){
+    .tarjetas{
+        @include just-direct;
+    }
+
+
+    .contenedor{
+        &-soluciones{
+            @include just-direct;
+        }
+        &-st{
+            @include just-direct;
+        }
+        &-gamer{
+            @include just-direct;
+        }
+        &-diseno{
+            @include just-direct;
+        }
+    }
+   
+
+    .marcas{
+        @include just-direct;
+        width: $w-100;
     }
 }
 
-/* T A B L E T*/
-@media only screen and (min-width: 501px) and (max-width: 960px){
-    .tarjetas{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .contenedor{
-        &-soluciones{
-            @include just-direct;
-        }
-        &-st{
-            @include just-direct;
-        }
-        &-gamer{
-            @include just-direct;
-        }
-        &-diseno{
-            @include just-direct;
-        }
-    }
-    .descripcion{
-        width: 100%;
-        height: 100%;
-    }
-} 

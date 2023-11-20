@@ -3,6 +3,21 @@ $color-link: #a4ff67;
 
 $w-100: 100%;
 
+// map
+
+$fontsize-mood:(
+//   type  size
+    tit: 2.5rem,
+    subtit:2rem,
+    parr: 1rem
+);
+
+@each $type, $size in $fontsize-mood{
+    .__size-#{$type}{
+        font-size: $size;
+    }
+}
+
 
 
 

@@ -30,7 +30,6 @@
 }
 
 .size-txt{
-    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -87,6 +86,7 @@ body{
 }
 /* MAIN SERVICIOS */
 
+
 .contenedor{
     &-soluciones{
         display: flex;
@@ -126,41 +126,49 @@ body{
     }
 }
 
-
-.descripcion{
-    max-width: 500px;
-    height: auto;
-    margin: 1px;
-   
-}
-
 .seccion{
     &-seg{
         justify-content: right;
+        max-width: 500px;
     }
     &-st{
-        justify-content: right;  
+        justify-content: right; 
+        max-width: 500px; 
     }
     &-gamer{
         justify-content: right;
+        max-width: 500px;
     }
     &-diseno{
         justify-content: right;
+        max-width: 500px;
     }
+}
+
+.descripcion{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+   
 }
 
 /** M A I N  N O S O T R O S **/
 
 .seccion-nosotros{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
+iframe{
+    @include w-h(auto,auto)
+}
 /** M A I N  C O N T A C T O **/
 
 .seccion-contacto{
+    @include flex-just;
+    flex-direction: column;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 .redes{
     &-contacto{
@@ -209,26 +217,28 @@ body{
 
 /** M A I N  A L I A N Z A **/
 
-.main-alianzas{
+.menu-alianzas{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+    align-items: center;
 }
 
 .alianzas{
     @include flex-just;
-    flex-direction: column;
-    text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
+    max-width: 500px;
 }
-.marcas{
-    width: $w-100;
-    @include flex-just;
-    flex-direction: column;
 
+
+.marcas{
     & img{
-        width: 500px;
+        justify-content: center;
+        width: $w-100;
         margin: 5px;
+
     }
 }
 
