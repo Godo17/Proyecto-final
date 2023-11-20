@@ -1,17 +1,13 @@
 /* RESET */
+@import "./reset/reset";
 @import "./reset/vars";
 @import "./reset/mixin";
-@import "./reset/reset";
 @import "./reset/grid";
 
 
-/* HEADER */
+/* LAYOUT */
 @import "./header";
-
-/* MAIN */
 @import "./main";
-
-/* FOOTER */
 @import "./footer";
 
 /* MEDIA QUERY */
