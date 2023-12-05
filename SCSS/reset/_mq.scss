@@ -25,6 +25,10 @@
         width: $w-100;
     }
 
+    .logo{
+        width: 74px;
+    }
+
 
 }
 
@@ -54,6 +58,10 @@
     .marcas{
         @include just-direct;
         width: $w-100;
+    }
+
+    .logo{
+        width: 74px;
     }
 }
 
