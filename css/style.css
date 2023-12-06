@@ -469,6 +469,10 @@ footer {
   .logo {
     width: 74px;
   }
+  body {
+    background-color: floralwhite;
+    flex-wrap: wrap;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
