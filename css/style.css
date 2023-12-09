@@ -438,6 +438,9 @@ footer {
   .logo {
     width: 74px;
   }
+  .nav-link {
+    color: black;
+  }
 }
 /* M O B I L E*/
 @media (min-width: 320px) and (max-width: 480px) {
@@ -472,6 +475,9 @@ footer {
   body {
     background-color: floralwhite;
     flex-wrap: wrap;
+  }
+  .nav-link {
+    color: black;
   }
 }
 
