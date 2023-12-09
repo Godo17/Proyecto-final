@@ -439,7 +439,10 @@ footer {
     width: 74px;
   }
   .nav-link {
-    color: black;
+    color: white;
+  }
+  .navbar-collapse {
+    background-color: rgba(0, 54, 75, 0.7803921569);
   }
 }
 /* M O B I L E*/
@@ -477,7 +480,10 @@ footer {
     flex-wrap: wrap;
   }
   .nav-link {
-    color: black;
+    color: white;
+  }
+  .navbar-collapse {
+    background-color: rgba(0, 54, 75, 0.7803921569);
   }
 }
 
