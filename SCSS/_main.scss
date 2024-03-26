@@ -46,13 +46,14 @@
 }
 /*color fondo*/
 body{
-    background-color: whitesmoke;
+    background: rgb(104,109,196);
+    background: radial-gradient(circle, rgba(104,109,196,1) 25%, rgba(152,0,207,1) 87%);
     flex-wrap: wrap;
 }
 .enlace{
     text-decoration: none;
     font-weight: 600;
-    color: #cdf570;
+    color: #0080af;
 }
 
 .muestra{
