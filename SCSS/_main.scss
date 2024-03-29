@@ -39,15 +39,31 @@
     @include flex-just;
 
 }
+.seccion_internet{
+    background-image: url(../assets/titulonet.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 1100px;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
 
+.card_planes{
+    color: #ffffff;
+}
+
+.card-link{
+    color: #ffe600;
+}
 .articulo{
     display: flex;
     flex-direction: column;
 }
 /*color fondo*/
 body{
-    background: rgb(104,109,196);
-    background: radial-gradient(circle, rgba(104,109,196,1) 25%, rgba(152,0,207,1) 87%);
+    background: #2266c3;
+    background: radial-gradient(circle, rgba(34,102,195,1) 49%, rgba(45,119,253,1) 81%);
     flex-wrap: wrap;
 }
 .enlace{
@@ -74,6 +90,7 @@ body{
     }
 
 }
+
 
 /*color y estilo titulos*/
 .parrafo-uno{

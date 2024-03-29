@@ -67,12 +67,12 @@
 
 /* LAYOUT */
 .bg-mi-burguer {
-  background-color: #011557;
+  background-color: #47484d;
 }
 
 .encabezado {
-  background: rgb(104, 109, 196);
-  background: radial-gradient(circle, rgb(104, 109, 196) 25%, rgb(152, 0, 207) 87%);
+  background: #2266c3;
+  background: radial-gradient(circle, rgb(34, 102, 195) 49%, rgb(45, 119, 253) 81%);
   height: 89px;
   background-size: cover;
   background-position: left;
@@ -83,15 +83,18 @@
 
 /* color boton*/
 .bg-mi-color {
-  background-color: #8df547;
+  background-color: #ffffff;
 }
 
 .navbar-nav {
   justify-content: right;
+  width: 100%;
+  align-content: space-around;
 }
 
 .nav-link {
-  color: #0080af;
+  color: #ffffff;
+  margin: 0 30px;
 }
 
 ul {
@@ -165,6 +168,24 @@ li {
   justify-content: center;
 }
 
+.seccion_internet {
+  background-image: url(../assets/titulonet.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 1100px;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+}
+
+.card_planes {
+  color: #ffffff;
+}
+
+.card-link {
+  color: #ffe600;
+}
+
 .articulo {
   display: flex;
   flex-direction: column;
@@ -172,8 +193,8 @@ li {
 
 /*color fondo*/
 body {
-  background: rgb(104, 109, 196);
-  background: radial-gradient(circle, rgb(104, 109, 196) 25%, rgb(152, 0, 207) 87%);
+  background: #2266c3;
+  background: radial-gradient(circle, rgb(34, 102, 195) 49%, rgb(45, 119, 253) 81%);
   flex-wrap: wrap;
 }
 
@@ -293,7 +314,7 @@ iframe {
 }
 
 .redes-contacto {
-  color: #0080af;
+  color: #ffffff;
   font-weight: 700;
   text-decoration: none;
   transition: all 0.4s ease-in-out;
@@ -324,7 +345,7 @@ iframe {
   text-align: right;
 }
 .submit input {
-  background-color: #0080af;
+  background-color: #ffffff;
 }
 .submit input:hover {
   background-color: gray;
@@ -354,8 +375,8 @@ iframe {
 }
 
 footer {
-  background: rgb(104, 109, 196);
-  background: radial-gradient(circle, rgb(104, 109, 196) 25%, rgb(152, 0, 207) 87%);
+  background: rgb(34, 102, 195);
+  background: radial-gradient(circle, rgb(34, 102, 195) 49%, rgb(45, 119, 253) 81%);
   height: 330px;
   background-position: left;
   font-weight: bolder;
@@ -374,7 +395,7 @@ footer {
   margin-top: 10px;
 }
 .link-redes a {
-  color: #0080af;
+  color: #ffffff;
   text-decoration: none;
   font-size: 28px;
   width: 60px;
@@ -388,7 +409,7 @@ footer {
 .navegacion-inicio {
   font-size: 2rem;
   text-decoration: none;
-  color: #0080af;
+  color: #ffffff;
 }
 .navegacion-inicio:hover {
   color: blueviolet;
@@ -405,7 +426,7 @@ footer {
 
 /*color de redes*/
 .enlace-pie {
-  color: #0080af;
+  color: #ffffff;
   text-decoration: none;
 }
 

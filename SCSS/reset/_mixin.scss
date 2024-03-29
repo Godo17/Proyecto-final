@@ -12,8 +12,8 @@
 }
 
 @mixin fondo-header {
-    background: rgb(104,109,196);
-    background: radial-gradient(circle, rgba(104,109,196,1) 25%, rgba(152,0,207,1) 87%);
+    background: #2266c3;
+    background: radial-gradient(circle, rgba(34,102,195,1) 49%, rgba(45,119,253,1) 81%);
     height: 89px;
     background-size: cover;
     background-position: left;
@@ -32,8 +32,8 @@
 }
 
 @mixin fondo-footer {
-    background: rgb(104,109,196);
-    background: radial-gradient(circle, rgba(104,109,196,1) 25%, rgba(152,0,207,1) 87%);
+    background: rgb(34,102,195);
+    background: radial-gradient(circle, rgba(34,102,195,1) 49%, rgba(45,119,253,1) 81%);
     height: 330px;
     background-position: left;
     font-weight: bolder;

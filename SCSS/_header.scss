@@ -1,6 +1,6 @@
 
 .bg-mi-burguer{
-    background-color: #011557;
+    background-color: #47484d;
 }
 
 .encabezado{
@@ -10,15 +10,18 @@
 
 /* color boton*/
 .bg-mi-color{
-   background-color: #8df547;
+   background-color: #ffffff;
 }
 
 .navbar-nav{
     justify-content: right;
+    width: 100%;
+    align-content: space-around;
 }
 
 .nav-link{
     color: $color-link;
+    margin: 0 30px;
 }
 
 ul{
