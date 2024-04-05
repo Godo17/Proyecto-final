@@ -43,7 +43,6 @@
     background-image: url(../assets/titulonet.png);
     background-size: cover;
     background-position: bottom;
-    height: 1100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,19 +51,21 @@
 .card_planes{
     color: #ffffff;
     margin-right: 30px;
-    border: 2px solid;
     border-radius: 10px;
     padding: 10px;
+    background: rgb(120,124,195);
+    background: linear-gradient(43deg, rgba(120,124,195,1) 9%, rgba(123,66,200,1) 50%, rgba(152,0,207,1) 100%);
     margin-top: 345px;
-    height: 290px;
+    height: 280px;
 }
 
 .card_corpo{
     color: #ffffff;
     margin-left: 30px;
-    border: 2px solid;
     border-radius: 10px;
     padding: 10px;
+    background: rgb(120,124,195);
+    background: linear-gradient(43deg, rgba(120,124,195,1) 9%, rgba(123,66,200,1) 50%, rgba(152,0,207,1) 100%);
     margin-top: 345px;
 }
 
@@ -74,6 +75,9 @@
 
 .card-link{
     color: #ffe600;
+    &:hover{
+        color: violet;
+    }
 }
 .articulo{
     display: flex;
