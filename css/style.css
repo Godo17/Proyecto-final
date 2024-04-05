@@ -397,6 +397,27 @@ iframe {
   margin: 5px;
 }
 
+.container_net {
+  display: flex;
+  justify-content: center;
+}
+
+.tit_net {
+  font-size: 3rem;
+  color: #ffffff;
+  padding-top: 100px;
+}
+
+.plan_hogar6 {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.plan_hogar_desc {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
 footer {
   background: rgb(34, 102, 195);
   background: radial-gradient(circle, rgb(34, 102, 195) 49%, rgb(45, 119, 253) 81%);
