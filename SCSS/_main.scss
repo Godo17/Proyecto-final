@@ -48,6 +48,30 @@
     justify-content: center;
 }
 
+.card_planes_promo{
+    color: #ffffff;
+    margin-right: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(120,124,195);
+    background: linear-gradient(43deg, rgba(120,124,195,0.75) 9%, rgba(123,66,200,0.75) 50%, rgba(152,0,207,0.75) 100%), url(../assets/cardhogar.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 345px;
+    height: 280px;
+}
+
+.card_corpo_promo{
+    color: #ffffff;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(120,124,195);
+    background: linear-gradient(43deg, rgba(120,124,195,0.65) 9%, rgba(123,66,200,0.65) 50%, rgba(152,0,207,0.65) 100%), url(../assets/cardcorpo.jpg) no-repeat center;
+    background-size: cover;
+    height: 280px;
+    margin-top: 345px;
+}
+
 .card_planes{
     color: #ffffff;
     margin-right: 30px;
@@ -74,9 +98,10 @@
 }
 
 .card-link{
-    color: #ffe600;
+    text-decoration: none;
+    transition: all 1s;
     &:hover{
-        color: violet;
+        transform: scale(1.1);
     }
 }
 .articulo{
@@ -259,32 +284,7 @@ iframe{
     }
 }
 
-/** M A I N  A L I A N Z A **/
 
-.menu-alianzas{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 60px;
-    align-items: center;
-}
-
-.alianzas{
-    @include flex-just;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    max-width: 500px;
-}
-
-
-.marcas{
-    & img{
-        justify-content: center;
-        width: $w-100;
-        margin: 5px;
-
-    }
-}
 
 //* main internet
 
@@ -293,6 +293,9 @@ iframe{
     justify-content: center;
 }
 
+.seccion_internet{
+    margin-bottom: 400px;
+}
 .tit_net{
     font-size: 3rem;
     color: #ffffff;

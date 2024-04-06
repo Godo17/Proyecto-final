@@ -11,7 +11,6 @@ footer{
 
     &-redes{
         display: flex;
-        width: 100%;
         justify-content: right;
         margin-top: 10px;
 
@@ -35,7 +34,6 @@ footer{
 
 .navegacion{
     &-inicio{
-        font-size: 2rem;
         text-decoration: none;
         color: $color-link;
 
@@ -49,6 +47,28 @@ footer{
     }
 }
 
+.data_footer{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}
+
+.data_list{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+}
+
+.data_item{
+    height: 20px;
+    font-size: small;
+
+    & p{
+        font-size: small;
+    }
+}
 /*color txt*/
 .color-txt{
     color: white;
