@@ -46,6 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 180px;
 }
 
 .card_planes_promo{
@@ -113,14 +114,46 @@
     display: flex;
     justify-content: center;
     background-color: #ffffff;
-    height: 500px;
+    height: 800px;
 }
 .tit_solucion{
     padding-top: 40px;
     font-size: 3rem;
     font-family: "bevan";
     color: #2266c3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
 }
+
+.parr_descripcion{
+    display:flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 50%;
+    align-self: center;
+}
+.parr_solucion{
+    color: rgb(77, 77, 77);
+    text-align: right;
+}
+#carouselExample{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+button{
+    color: grey;
+}
+
+.visually-hidden{
+    color: grey;
+}
+
+
 /*color fondo*/
 body{
     background: #2266c3;
@@ -309,9 +342,7 @@ iframe{
     justify-content: center;
 }
 
-.seccion_internet{
-    margin-bottom: 400px;
-}
+
 .tit_net{
     font-size: 2rem;
     color: #ffffff;
