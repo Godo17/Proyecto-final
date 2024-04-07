@@ -239,6 +239,20 @@ li {
   flex-direction: column;
 }
 
+.container_soluciones {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  height: 500px;
+}
+
+.tit_solucion {
+  padding-top: 40px;
+  font-size: 3rem;
+  font-family: "bevan";
+  color: #2266c3;
+}
+
 /*color fondo*/
 body {
   background: #2266c3;
@@ -270,13 +284,13 @@ body {
 
 /*color y estilo titulos*/
 .parrafo-uno {
-  color: #0080af;
+  color: #ffffff;
   font-size: 2rem;
   top: 75px;
 }
 
 .titulo-servi {
-  color: #0080af;
+  color: #ffffff;
   font-size: 2rem;
 }
 
@@ -291,7 +305,7 @@ body {
   width: 100%;
 }
 .contenedor-soluciones h2 {
-  color: #0080af;
+  color: #ffffff;
 }
 .contenedor-st {
   display: flex;
@@ -299,7 +313,7 @@ body {
   width: 100%;
 }
 .contenedor-st h2 {
-  color: #0080af;
+  color: #ffffff;
 }
 .contenedor-gamer {
   display: flex;
@@ -307,7 +321,7 @@ body {
   width: 100%;
 }
 .contenedor-gamer h2 {
-  color: #0080af;
+  color: #ffffff;
 }
 .contenedor-diseno {
   display: flex;
@@ -315,7 +329,7 @@ body {
   width: 100%;
 }
 .contenedor-diseno h2 {
-  color: #0080af;
+  color: #ffffff;
 }
 
 .seccion-seg {
@@ -333,6 +347,10 @@ body {
 .seccion-diseno {
   justify-content: right;
   max-width: 500px;
+}
+
+.__size-parr {
+  color: #ffffff;
 }
 
 .descripcion {
@@ -409,9 +427,10 @@ iframe {
 }
 
 .tit_net {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #ffffff;
   padding-top: 100px;
+  font-family: "bevan";
 }
 
 .plan_hogar6 {

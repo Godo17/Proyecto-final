@@ -108,6 +108,19 @@
     display: flex;
     flex-direction: column;
 }
+
+.container_soluciones{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 500px;
+}
+.tit_solucion{
+    padding-top: 40px;
+    font-size: 3rem;
+    font-family: "bevan";
+    color: #2266c3;
+}
 /*color fondo*/
 body{
     background: #2266c3;
@@ -163,7 +176,7 @@ body{
         width: $w-100;
 
         & h2{
-            color: #0080af;
+            color: #ffffff;
         }
     }
     &-st{
@@ -172,7 +185,7 @@ body{
         width: $w-100;
        
         & h2{
-            color: #0080af;
+            color: #ffffff;
         }    
     }
     &-gamer{
@@ -181,7 +194,7 @@ body{
         width: $w-100;
 
         & h2{
-            color: #0080af;
+            color: #ffffff;
         }
     }
     &-diseno{
@@ -190,7 +203,7 @@ body{
         width: $w-100;
 
         & h2{
-            color: #0080af;
+            color: #ffffff;
         }
     }
 }
@@ -214,6 +227,9 @@ body{
     }
 }
 
+.__size-parr{
+    color: #ffffff;
+}
 .descripcion{
     width: 100%;
     height: auto;
@@ -297,9 +313,10 @@ iframe{
     margin-bottom: 400px;
 }
 .tit_net{
-    font-size: 3rem;
+    font-size: 2rem;
     color: #ffffff;
     padding-top: 100px;
+    font-family: "bevan";
 }
 
 .plan_hogar6{
