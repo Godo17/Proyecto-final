@@ -1,6 +1,6 @@
 
 .bg-mi-burguer{
-    background-color: #47484d;
+    background-color: none;
 }
 
 .encabezado{
@@ -34,6 +34,11 @@ ul{
 .nav-superior{
     display: flex;
     align-content: center;
+
+}
+
+.navbar-collapse{
+    background-color: #3b4045c7;
 
 }
 

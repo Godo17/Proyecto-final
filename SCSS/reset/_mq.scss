@@ -1,10 +1,30 @@
 /* T A B L E T*/
 @media  (min-width: 481px) and (max-width: 768px){
-    .tarjetas{
-        flex-direction: column;
-        justify-content: center;
+//index
+
+    .seccion_internet{
+        @include just-direct;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: initial;
     }
 
+
+    .card_planes_promo{
+        height: 245px;
+        margin: 240px 0 0 0;
+    }
+
+    .card_corpo_promo{
+        margin: 10px 0 0 0;
+    }
+
+    .container_soluciones{
+        @include just-direct;
+    }
+
+
+    //servicios
     .contenedor{
         &-soluciones{
             @include just-direct;
@@ -20,10 +40,6 @@
         }
     }
     
-    .marcas{
-        @include just-direct;
-        width: $w-100;
-    }
 
     .logo{
         width: 74px;
@@ -32,18 +48,37 @@
         color: white;
     }
     .navbar-collapse{
-        background-color: #00364bc7;
+        background-color: #f8f9fac7;
     }
 
 }
 
 /* M O B I L E*/
 @media (min-width:320px) and (max-width:480px){
-    .tarjetas{
-        @include just-direct;
-    }
+//index
+
+.seccion_internet{
+    @include just-direct;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: initial;
+}
 
 
+.card_planes_promo{
+    height: 245px;
+    margin: 240px 0 0 0;
+}
+
+.card_corpo_promo{
+    margin: 10px 0 0 0;
+}
+
+.container_soluciones{
+    @include just-direct;
+}
+
+    //servicios
     .contenedor{
         &-soluciones{
             @include just-direct;
@@ -78,6 +113,16 @@
     }
     .navbar-collapse{
         background-color: #00364bc7;
+        text-align: center;
+    }
+
+    //footer
+
+    footer{
+        @include just-direct;
+        height: auto;
+        align-items: center;
+        text-align: center;
     }
 }
 

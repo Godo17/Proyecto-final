@@ -34,7 +34,8 @@
 @mixin fondo-footer {
     background: rgb(34,102,195);
     background: radial-gradient(circle, rgba(34,102,195,1) 49%, rgba(45,119,253,1) 81%);
-    height: 330px;
+    height: 150px;
+    padding-top: 10px;
     background-position: left;
     font-weight: bolder;
     color: #0080af;
