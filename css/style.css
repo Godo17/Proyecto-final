@@ -112,10 +112,6 @@ ul {
   align-content: center;
 }
 
-.navbar-collapse {
-  background-color: rgba(59, 64, 69, 0.7803921569);
-}
-
 /*logo*/
 .logo {
   width: 140px;
@@ -633,6 +629,9 @@ footer {
     background-repeat: no-repeat;
     background-position: initial;
   }
+  .navbar-collapse {
+    background-color: rgba(59, 64, 69, 0.7803921569);
+  }
   .card_planes_promo {
     height: 245px;
     margin: 240px 0 0 0;
@@ -643,6 +642,9 @@ footer {
   .container_soluciones {
     justify-content: center;
     flex-direction: column;
+  }
+  .navbar-collapse {
+    background-color: rgba(59, 64, 69, 0.7803921569);
   }
   .contenedor-soluciones {
     justify-content: center;

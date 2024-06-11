@@ -64,6 +64,10 @@
     background-position: initial;
 }
 
+.navbar-collapse{
+    background-color: #3b4045c7;
+
+}
 
 .card_planes_promo{
     height: 245px;
@@ -78,6 +82,11 @@
     @include just-direct;
 }
 
+
+.navbar-collapse{
+    background-color: #3b4045c7;
+
+}
     //servicios
     .contenedor{
         &-soluciones{
