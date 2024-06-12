@@ -293,9 +293,16 @@ body{
 }
 
 /** M A I N  N O S O T R O S **/
-
+.us{
+    display: flex;
+    justify-content: center;
+}
 .seccion-nosotros{
-    text-align: center;
+    align-items: center;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
     margin-top: 60px;
 }
 
