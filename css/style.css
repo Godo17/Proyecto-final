@@ -603,6 +603,10 @@ footer {
     justify-content: center;
     flex-direction: column;
   }
+  .navbar-collapse {
+    background-color: rgba(0, 54, 75, 0.7803921569);
+    text-align: center;
+  }
   .contenedor-soluciones {
     justify-content: center;
     flex-direction: column;
@@ -625,8 +629,15 @@ footer {
   .nav-link {
     color: white;
   }
-  .navbar-collapse {
-    background-color: rgba(248, 249, 250, 0.7803921569);
+  .parr_descripcion {
+    justify-content: center;
+    width: auto;
+  }
+  .tit_solucion {
+    text-align: center;
+  }
+  .parr_solucion {
+    text-align: center;
   }
 }
 /* M O B I L E*/
@@ -652,8 +663,19 @@ footer {
     justify-content: center;
     flex-direction: column;
   }
+  .parr_descripcion {
+    justify-content: center;
+    width: auto;
+  }
+  .tit_solucion {
+    text-align: center;
+  }
+  .parr_solucion {
+    text-align: center;
+  }
   .navbar-collapse {
-    background-color: rgba(59, 64, 69, 0.7803921569);
+    background-color: rgba(0, 54, 75, 0.7803921569);
+    text-align: center;
   }
   .contenedor-soluciones {
     justify-content: center;

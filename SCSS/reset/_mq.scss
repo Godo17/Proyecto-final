@@ -23,6 +23,12 @@
         @include just-direct;
     }
 
+    .navbar-collapse{
+        background-color: #00364bc7;
+        text-align: center;
+    
+    }
+
 
     //servicios
     .contenedor{
@@ -47,8 +53,19 @@
     .nav-link{
         color: white;
     }
-    .navbar-collapse{
-        background-color: #f8f9fac7;
+
+    .parr_descripcion{
+        justify-content: center;
+        width: auto;
+    }
+
+    .tit_solucion{
+        text-align: center;
+
+    }
+
+    .parr_solucion{
+        text-align: center;
     }
 
 }
@@ -83,9 +100,24 @@
 }
 
 
-.navbar-collapse{
-    background-color: #3b4045c7;
 
+.parr_descripcion{
+    justify-content: center;
+    width: auto;
+}
+
+.tit_solucion{
+    text-align: center;
+
+}
+
+.parr_solucion{
+    text-align: center;
+}
+
+.navbar-collapse{
+    background-color: #00364bc7;
+    text-align: center;
 }
     //servicios
     .contenedor{
