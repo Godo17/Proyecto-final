@@ -189,6 +189,9 @@ li {
   margin-top: 345px;
   height: 280px;
 }
+.card_planes_promo a {
+  color: yellow;
+}
 
 .card_corpo_promo {
   color: #ffffff;
@@ -200,6 +203,9 @@ li {
   background-size: cover;
   height: 280px;
   margin-top: 345px;
+}
+.card_corpo_promo a {
+  color: yellow;
 }
 
 .card_planes {
@@ -268,7 +274,8 @@ li {
 
 .parr_solucion {
   color: rgb(77, 77, 77);
-  text-align: right;
+  text-align: justify;
+  max-width: 600px;
 }
 
 /*#carouselExample{
@@ -286,7 +293,7 @@ li {
 
 .carrusel-track {
   display: flex;
-  width: 300%;
+  width: 100%;
 }
 
 .carrusel-item {
