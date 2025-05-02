@@ -147,6 +147,32 @@
     text-align: justify;
     max-width: 600px;
 }
+
+.container_gamer{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 873px;
+}
+.tit_gamer{
+    padding-top: 40px;
+    font-size: 3rem;
+    font-family: "bevan";
+    color: #2266c3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.parr_descripcion{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-self: center;
+}
+
 /*#carouselExample{
     display: flex;
     flex-direction: column;
